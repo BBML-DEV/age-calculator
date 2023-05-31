@@ -1,5 +1,6 @@
 *, *:before, *:after {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 html, body, div, span, object, iframe, figure, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
@@ -60,8 +61,8 @@ input {
 
 .container {
   margin: 10% auto;
-  width: 550px;
-  height: 400px;
+  width: 600px;
+  height: 450px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px 15px 130px 15px;
   padding: 1.2rem;
@@ -109,6 +110,17 @@ input {
   background-color: hsl(0, 0%, 86%);
   height: 1px;
   width: 85%;
+}
+.container__response {
+  font-weight: 800;
+  font-size: 30px;
+  padding: 1rem;
+}
+.container__response h1 {
+  font-style: italic;
+}
+.container__response h1 span {
+  color: hsl(259, 100%, 65%);
 }
 
 button {
