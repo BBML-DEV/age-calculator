@@ -64,7 +64,7 @@ input {
   height: 400px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px 15px 130px 15px;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 .container__data {
   display: flex;
@@ -83,13 +83,16 @@ input {
   display: flex;
   justify-content: flex-start;
   padding-bottom: 0.5rem;
+  letter-spacing: 5px;
 }
 .container__data div input {
   border: 1px solid hsl(0, 0%, 86%);
   border-radius: 5px;
-  width: 100px;
-  height: 30px;
-  padding: 1rem;
+  width: 120px;
+  height: 50px;
+  padding-left: 0.8rem;
+  font-size: 32px;
+  font-weight: bold;
 }
 .container__data div input::placeholder {
   font-weight: bold;
