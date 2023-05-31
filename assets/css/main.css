@@ -99,5 +99,31 @@ input {
   font-size: 16px;
   color: hsl(0, 1%, 44%);
 }
+.container__btn {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 16px 0px;
+}
+.container__btn .separator {
+  background-color: hsl(0, 0%, 86%);
+  height: 1px;
+  width: 85%;
+}
+
+button {
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: hsl(259, 100%, 55%);
+}
+button img {
+  width: 50%;
+}
 
 /*# sourceMappingURL=main.css.map */
